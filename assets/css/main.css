@@ -1,3 +1,21 @@
+body::-webkit-scrollbar,
+body::-webkit-scrollbar-track-piece {
+	background: #fafafa;
+}
+body::-webkit-scrollbar {
+	width: 8px;
+	height: 8px;
+}
+body::-webkit-scrollbar-thumb {
+	background: rgba(0, 0, 0, 0.2);
+}
+body::-webkit-scrollbar-thumb:hover {
+	background: rgba(0, 0, 0, 0.25);
+}
+body::-webkit-scrollbar-thumb:active {
+	background: rgba(0, 0, 0, 0.3);
+}
+
 /*
 	Forty by HTML5 UP
 	html5up.net | @ajlkn
