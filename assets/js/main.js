@@ -189,7 +189,7 @@
 	$banner.each(function() {
 		var $this = $(this),
 			$image = $this.find('.image'),
-			$img = $image.find('img');
+			$img = $image.find('img-orig');
 
 		// Parallax.
 		$this._parallax(30);
