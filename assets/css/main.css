@@ -3966,3 +3966,8 @@ input, select, textarea {
 			opacity: 1;
 			visibility: visible;
 		}
+
+#coder-toolbox {
+	background-color: #fff;
+	background-size: 90%;
+}

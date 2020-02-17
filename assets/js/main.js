@@ -111,11 +111,13 @@
 
 		// Image.
 
-		// Set image.
-		$this.css('background-image', 'url(' + (location.hostname === 'localhost' ? '' : 'https://search.pstatic.net/common?type=origin&src=https://lolicon.app/') + $img.attr('src') + ')');
+		if ($img.length > 0) {
+			// Set image.
+			$this.css('background-image', 'url(' + (location.hostname === 'localhost' ? '' : 'https://search.pstatic.net/common?type=origin&src=https://lolicon.app/') + $img.attr('src') + ')');
 
-		// Set position.
-		if ((x = $img.data('position'))) $this.css('background-position', x);
+			// Set position.
+			if ((x = $img.data('position'))) $this.css('background-position', x);
+		}
 
 		// Hide original.
 		// $image.hide();
